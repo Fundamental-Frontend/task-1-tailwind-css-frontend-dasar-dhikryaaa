@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #0ea5e9;
+  --color-brand-primary-dark: #0284c7;
+  --color-brand-primary-light: #e0f2fe;
+  --color-brand-secondary: #0f172a;
+  --color-brand-secondary-hover: #1e293b;
+
+  --color-btn-primary-bg: #0ea5e9;
+  --color-btn-primary-hover: #0284c7;
+  --color-btn-primary-text: #ffffff;
+
+  --color-btn-secondary-border: #0ea5e9;
+  --color-btn-secondary-text: #0ea5e9;
+  --color-btn-secondary-hover-bg: #0ea5e9;
+  --color-btn-secondary-hover-text: #ffffff;
+
+  --color-btn-ghost-border: #f1f5f9;
+  --color-btn-ghost-text: #f1f5f9;
+  --color-btn-ghost-hover-bg: #ffffff;
+  --color-btn-ghost-hover-text: #0f172a;
+
+  --color-card-bg: #ffffff;
+  --color-card-border: #bae6fd;
+  --color-card-icon-bg: #e0f2fe;
+  --color-card-dark-bg: #0f172a;
+
+  --color-footer-bg: #020617;
+  --color-footer-heading: #0ea5e9;
+  --color-footer-text: #94a3b8;
+  --color-footer-link: #cbd5e1;
+  --color-footer-link-hover: #0ea5e9;
+
+  --color-text-white: #ffffff;
+  --color-text-black: #000000;
+  --color-text-grey-light: #E0E0E0;
+  --color-text-grey-dark: #757575;
+}
+
+@layer base {
+  body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
